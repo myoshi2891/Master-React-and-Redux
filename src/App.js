@@ -5,12 +5,12 @@ import CarValue from './components/CarValue';
 
 function App() {
   return (
-    <div>
-      <CarForm />
-      <CarList />
-      <CarSearch />
-      <CarValue />
-    </div>
+		<div className="container is-fluid">
+			<CarForm />
+			<CarSearch />
+			<CarList />
+			<CarValue />
+		</div>
   );
 }
 

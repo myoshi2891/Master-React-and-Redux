@@ -29,7 +29,7 @@ function CarForm() {
 			<h4 className="subtitle is-3">Add Car</h4>
 			<form onSubmit={handleSubmit}>
 				<div className="field-group">
-					<div className="feild">
+					<div className="field">
 						<label className="label">Name</label>
 						<input
 							className="input is-expanded"
@@ -37,7 +37,7 @@ function CarForm() {
 							onChange={handleNameChange}
 						/>
 					</div>
-					<div className="feild">
+					<div className="field">
 						<label className="label">Cost</label>
 						<input
 							className="input is-expanded"
