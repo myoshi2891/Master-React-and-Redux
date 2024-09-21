@@ -1,5 +1,34 @@
 {
-	"users": [{ "id": 1, "name": "Myra" }],
-	"albums": [],
-	"photos": []
+  "users": [
+    {
+      "id": 1,
+      "name": "Myra"
+    },
+    {
+      "name": "Marguerite Wolf",
+      "id": 2
+    },
+    {
+      "name": "Emanuel Conn",
+      "id": 3
+    },
+    {
+      "name": "Miss Lyle Nader",
+      "id": 4
+    },
+    {
+      "name": "Gertrude Ortiz",
+      "id": 5
+    },
+    {
+      "name": "Mark Dickens II",
+      "id": 6
+    },
+    {
+      "name": "Brandon Brakus",
+      "id": 7
+    }
+  ],
+  "albums": [],
+  "photos": []
 }
