@@ -1,6 +1,7 @@
 import { GoTrashcan } from "react-icons/go";
 import { useThunk } from "../hooks/use-thunk";
 import { removeUser } from "../store";
+import AlbumsList from "./AlbumsList";
 import Button from "./Button";
 import ExpandablePanel from "./ExpandablePanel";
 
@@ -21,6 +22,10 @@ function UsersListItem({ user }) {
 		</>
 	);
 
-	return <ExpandablePanel header={header}>content</ExpandablePanel>;
+	return (
+		<ExpandablePanel header={header}>
+			<AlbumsList user={user} />
+		</ExpandablePanel>
+	);
 }
 export default UsersListItem;
