@@ -7,6 +7,8 @@ import Button from "./Button";
 function UsersList() {
 	const [isLoadingUsers, setIsLoadingUsers] = useState(false);
 	const [isLoadingUsersError, setIsLoadingUsersError] = useState(null);
+	const [isCreatingUsers, setIsCreatingUsers] = useState(false);
+	const [creatingUserError, setCreatingUserError] = useState(null);
 
 	const dispatch = useDispatch();
 	const { data } = useSelector((state) => {
@@ -21,9 +23,13 @@ function UsersList() {
 			.finally(() => setIsLoadingUsers(false));
 	}, [dispatch]);
 
-	function handleUserAdd() {
-		dispatch(addUser());
-	}
+	const handleUserAdd = () => {
+		setIsLoadingUsers(true);
+		dispatch(addUser())
+			.unwrap()
+			.catch((err) => setCreatingUserError(err))
+			.finally(() => setIsCreatingUsers(false));
+	};
 
 	if (isLoadingUsers) {
 		return <Skeleton times={6} className="h-10 w-full" />;
@@ -47,7 +53,12 @@ function UsersList() {
 		<div>
 			<div className="flex flex-row justify-between m-3">
 				<h1 className="m-2 text-xl">Users</h1>
-				<Button onClick={handleUserAdd}>+ Add User</Button>
+				{isCreatingUsers ? (
+					"Creating User..."
+				) : (
+					<Button onClick={handleUserAdd}>+ Add User</Button>
+				)}
+				{creatingUserError && "Error creating user..."}
 			</div>
 			{renderdUsers}
 		</div>
