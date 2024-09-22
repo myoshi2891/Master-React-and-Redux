@@ -71,6 +71,34 @@
     {
       "name": "Edna Kautzer",
       "id": 18
+    },
+    {
+      "name": "Dr. Holly O'Hara",
+      "id": 19
+    },
+    {
+      "name": "Manuel Stoltenberg",
+      "id": 20
+    },
+    {
+      "name": "Tina Gerhold",
+      "id": 21
+    },
+    {
+      "name": "Lucy Konopelski",
+      "id": 22
+    },
+    {
+      "name": "Ivan Konopelski",
+      "id": 23
+    },
+    {
+      "name": "Saul Turner",
+      "id": 24
+    },
+    {
+      "name": "Garrett Haley",
+      "id": 25
     }
   ],
   "albums": [],
