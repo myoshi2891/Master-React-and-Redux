@@ -1,28 +1,33 @@
 {
-	"users": [
-		{
-			"id": 1,
-			"name": "Myra"
-		},
-		{
-			"name": "Nicholas Jones",
-			"id": 2
-		},
-		{
-			"name": "Mr. Brendan Stark III",
-			"id": 3
-		},
-		{
-			"name": "Mark Jenkins",
-			"id": 4
-		}
-	],
-	"albums": [
-		{
-			"id": 1,
-			"title": "hiking trip",
-			"userId": 1
-		}
-	],
-	"photos": []
+  "users": [
+    {
+      "id": 1,
+      "name": "Myra"
+    },
+    {
+      "name": "Nicholas Jones",
+      "id": 2
+    },
+    {
+      "name": "Mr. Brendan Stark III",
+      "id": 3
+    },
+    {
+      "name": "Mark Jenkins",
+      "id": 4
+    }
+  ],
+  "albums": [
+    {
+      "id": 1,
+      "title": "hiking trip",
+      "userId": 1
+    },
+    {
+      "userId": 1,
+      "title": "Fantastic Soft Bacon",
+      "id": 2
+    }
+  ],
+  "photos": []
 }
