@@ -17,8 +17,8 @@ function UsersList() {
 		setIsLoadingUsers(true);
 		dispatch(fetchUsers())
 			.unwrap()
-			.then(() => {})
-			.catch(() => {});
+			.catch((err) => setIsLoadingUsersError(err))
+			.finally(() => setIsLoadingUsers(false));
 	}, [dispatch]);
 
 	function handleUserAdd() {
