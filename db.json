@@ -37,7 +37,23 @@
       "userId": 2,
       "title": "Small Fresh Gloves",
       "id": 10
+    },
+    {
+      "userId": 1,
+      "title": "Tasty Concrete Pizza",
+      "id": 11
     }
   ],
-  "photos": []
+  "photos": [
+    {
+      "albumId": 7,
+      "url": "https://loremflickr.com/150/150/abstract?lock=66896",
+      "id": 1
+    },
+    {
+      "albumId": 7,
+      "url": "https://loremflickr.com/150/150/abstract?lock=15567",
+      "id": 2
+    }
+  ]
 }
