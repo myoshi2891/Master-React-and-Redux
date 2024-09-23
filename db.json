@@ -42,6 +42,11 @@
       "userId": 1,
       "title": "Tasty Concrete Pizza",
       "id": 11
+    },
+    {
+      "userId": 1,
+      "title": "Unbranded Soft Chair",
+      "id": 12
     }
   ],
   "photos": [
@@ -59,6 +64,16 @@
       "albumId": 7,
       "url": "https://loremflickr.com/150/150/abstract?lock=3851",
       "id": 3
+    },
+    {
+      "albumId": 8,
+      "url": "https://loremflickr.com/150/150/abstract?lock=17046",
+      "id": 4
+    },
+    {
+      "albumId": 11,
+      "url": "https://loremflickr.com/150/150/abstract?lock=35297",
+      "id": 5
     }
   ]
 }
