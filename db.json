@@ -27,6 +27,26 @@
       "userId": 1,
       "title": "Fantastic Soft Bacon",
       "id": 2
+    },
+    {
+      "userId": 1,
+      "title": "Elegant Metal Table",
+      "id": 3
+    },
+    {
+      "userId": 1,
+      "title": "Licensed Granite Gloves",
+      "id": 4
+    },
+    {
+      "userId": 1,
+      "title": "Tasty Granite Pants",
+      "id": 5
+    },
+    {
+      "userId": 2,
+      "title": "Incredible Soft Chair",
+      "id": 6
     }
   ],
   "photos": []
