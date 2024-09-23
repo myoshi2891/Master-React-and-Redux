@@ -19,14 +19,24 @@
   ],
   "albums": [
     {
-      "userId": 1,
-      "title": "Luxurious Steel Computer",
-      "id": 4
-    },
-    {
       "userId": 2,
       "title": "Sleek Metal Chicken",
       "id": 5
+    },
+    {
+      "userId": 1,
+      "title": "Practical Metal Chips",
+      "id": 7
+    },
+    {
+      "userId": 1,
+      "title": "Handmade Steel Pizza",
+      "id": 8
+    },
+    {
+      "userId": 2,
+      "title": "Small Fresh Gloves",
+      "id": 10
     }
   ],
   "photos": []
