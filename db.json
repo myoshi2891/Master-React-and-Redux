@@ -112,6 +112,11 @@
       "userId": 1,
       "title": "Small Granite Pants",
       "id": 19
+    },
+    {
+      "userId": 2,
+      "title": "Recycled Frozen Hat",
+      "id": 20
     }
   ],
   "photos": []
