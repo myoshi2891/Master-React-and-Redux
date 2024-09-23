@@ -47,6 +47,31 @@
       "userId": 2,
       "title": "Incredible Soft Chair",
       "id": 6
+    },
+    {
+      "userId": 1,
+      "title": "Incredible Granite Soap",
+      "id": 7
+    },
+    {
+      "userId": 1,
+      "title": "Unbranded Bronze Chips",
+      "id": 8
+    },
+    {
+      "userId": 1,
+      "title": "Luxurious Granite Shoes",
+      "id": 9
+    },
+    {
+      "userId": 1,
+      "title": "Recycled Plastic Bacon",
+      "id": 10
+    },
+    {
+      "userId": 2,
+      "title": "Small Wooden Gloves",
+      "id": 11
     }
   ],
   "photos": []
