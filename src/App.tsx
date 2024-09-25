@@ -1,6 +1,6 @@
 import Root from "./pages/Root";
 import HomePage from "./pages/HomePage";
-import SearchPage from "./pages/SearchPage";
+import SearchPage from "./pages/search/SearchPage";
 import DetailsPage from "./pages/DetailsPage";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
@@ -27,7 +27,6 @@ const router = createBrowserRouter([
 					const res = await fetch(
 						`https://registry.npmjs.org/-/v1/search?text=${term}`
 					);
-
 					const data = await res.json();
 
 					return data.objects;
