@@ -1,5 +1,6 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import DetailsPage from "./pages/DetailsPage";
+import { detailsLoader } from "./pages/details/detailsLoader";
+import DetailsPage from "./pages/details/DetailsPage";
 import HomePage from "./pages/HomePage";
 import Root from "./pages/Root";
 import { searchLoader } from "./pages/search/searchLoader";
@@ -22,6 +23,7 @@ const router = createBrowserRouter([
 			{
 				path: "/packages/:name",
 				element: <DetailsPage />,
+				loader: detailsLoader,
 			},
 		],
 	},
