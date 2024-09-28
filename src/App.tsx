@@ -1,7 +1,8 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { detailsLoader } from "./pages/details/detailsLoader";
 import DetailsPage from "./pages/details/DetailsPage";
-import HomePage from "./pages/HomePage";
+import { homeLoader } from "./pages/home/homeLoader";
+import HomePage from "./pages/home/HomePage";
 import Root from "./pages/Root";
 import { searchLoader } from "./pages/search/searchLoader";
 import SearchPage from "./pages/search/SearchPage";
@@ -14,6 +15,7 @@ const router = createBrowserRouter([
 			{
 				index: true,
 				element: <HomePage />,
+				loader: homeLoader,
 			},
 			{
 				path: "/search",
