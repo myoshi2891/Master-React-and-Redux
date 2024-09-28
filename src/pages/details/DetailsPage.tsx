@@ -21,7 +21,7 @@ export default function DetailsPage() {
 			<div>
 				<h3 className="text-lg font-bold">Author</h3>
 				<div className="p-3 bg-gray-200 rounded">
-					{details.author.name}
+					{details.author?.name}
 				</div>
 			</div>
 		</div>
